@@ -4,8 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/black"
-    tools:context=".creditos">
+    tools:context=".dispositivos"
+    android:background="@color/black">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -13,20 +13,45 @@
         android:orientation="vertical" >
 
 
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Créditos"
+            android:text="Dispositivos"
             android:textSize="24sp"
             android:textColor="@color/white"
             android:layout_margin="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="2dp"
+            android:text="Lista de dispositivos registrados"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="40dp"
+            android:text="en su banca"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="20sp" />
 
         <androidx.cardview.widget.CardView
             android:layout_width="190dp"
             android:layout_height="190dp"
             app:cardBackgroundColor="@color/gray"
             app:cardCornerRadius="12dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="20dp"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="105dp"
 
@@ -43,13 +68,13 @@
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_marginTop="18dp"
-                    android:src="@drawable/mariana4" />
+                    android:src="@drawable/dis2" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:text="Mariana David"
+                    android:text="iPhone X"
                     android:textColor="@color/white"
                     android:textStyle="bold"
                     android:textSize="15sp" />
@@ -66,6 +91,7 @@
             app:cardBackgroundColor="@color/gray"
             app:cardCornerRadius="12dp"
             app:cardElevation="5dp"
+            android:layout_marginTop="10dp"
             android:layout_marginLeft="105dp"
             android:layout_marginBottom="10dp"
             >
@@ -81,13 +107,13 @@
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_marginTop="18dp"
-                    android:src="@drawable/pablo1" />
+                    android:src="@drawable/dis3" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:text="Pablo Escobar"
+                    android:text="Dell Inspiron 13FXA"
                     android:textStyle="bold"
                     android:textColor="@color/white"
                     android:textSize="15sp" />
@@ -97,45 +123,10 @@
         </androidx.cardview.widget.CardView>
 
 
-        <androidx.cardview.widget.CardView
-            android:layout_width="190dp"
-            android:layout_height="190dp"
-            app:cardBackgroundColor="@color/gray"
-            android:layout_marginLeft="105dp"
-            app:cardCornerRadius="12dp"
-            app:cardElevation="5dp"
-            >
-
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_marginTop="18dp"
-                    android:src="@drawable/fredy3" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
-                    android:text="Fredy Velásquez"
-                    android:textStyle="bold"
-                    android:textColor="@color/white"
-                    android:textSize="15sp" />
-
-            </LinearLayout>
-
-        </androidx.cardview.widget.CardView>
 
 
 
 
     </LinearLayout>
-
 
 </ScrollView>

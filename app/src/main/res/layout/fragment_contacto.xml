@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black"
+    tools:context=".contacto">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contacto"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:layout_margin="20dp" />
+
+
+        <GridLayout
+            android:layout_width="371dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:alignmentMode="alignMargins"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:rowCount="4">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="400dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/gray"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:text="¡Contáctanos!"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:textSize="28sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="PBX"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="1712"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textStyle="normal"
+                        android:textSize="17sp"
+                        android:gravity="center_horizontal" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="WhatsApp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="502 4326 3265"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textStyle="normal"
+                        android:textSize="17sp"
+                        android:gravity="center_horizontal" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Página Web"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="www.fmpbank.com"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textStyle="normal"
+                        android:textSize="17sp"
+                        android:gravity="center_horizontal" />
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </GridLayout>
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/servicioc"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+</ScrollView>

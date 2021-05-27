@@ -1,17 +1,169 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/black"
     tools:context=".consultas">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Consultas"
-        android:textSize="24sp"
-        android:textColor="@color/white"
-        android:layout_margin="20dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
 
-</FrameLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Consultas"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:layout_margin="20dp" />
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="360dp"
+            android:layout_height="30dp"
+            app:cardBackgroundColor="@color/colorAzulito"
+            app:cardCornerRadius="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="25dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="360dp"
+            android:layout_height="300dp"
+            app:cardBackgroundColor="@color/gray"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="5dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginBottom="10dp"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="Cuenta Monetaria"
+                    android:layout_marginRight="55dp"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="FMP-104702548"
+                    android:layout_marginRight="76dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="Ismael Jorge Serrano Pintos"
+                    android:textStyle="italic"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="24sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text=""
+                    android:layout_marginRight="76dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text=""
+                    android:layout_marginRight="76dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="GT Q43,652.54"
+                    android:textStyle="normal"
+                    android:layout_marginLeft="76dp"
+                    android:textColor="@color/white"
+                    android:textSize="26sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="Saldo disponible"
+                    android:textStyle="normal"
+                    android:layout_marginLeft="100dp"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text=""
+                    android:layout_marginRight="76dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="Ayuda"
+                    android:textStyle="normal"
+                    android:layout_marginRight="130dp"
+                    android:textColor="@color/colorAzulito"
+                    android:textSize="16sp" />
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
